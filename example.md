@@ -66,11 +66,11 @@ flowchart TD
     CustomerPool -.->|"Payment Advice/Bank Transfer"| FI_ReceivePayment
 
     %% Styling
-    classDef start fill:#9D9,stroke:#696,stroke-width:2px;
-    classDef zend fill:#F99,stroke:#966,stroke-width:2px;
-    classDef task fill:#89CFF0,stroke:#0078D7,stroke-width:1px;
-    classDef gateway fill:#ffffc0,stroke:#ccc,stroke-width:1px;
-    classDef timer fill:#fbd2c9,stroke:#8f4236,stroke-width:1px;
+    classDef start fill:#72246C,stroke:#696,stroke-width:2px;
+    classDef zend fill:#E5191E,stroke:#966,stroke-width:2px;
+    classDef task fill:#D9B434,stroke:#0078D7,stroke-width:1px;
+    classDef gateway fill:#FF5733,stroke:#ccc,stroke-width:1px;
+    classDef timer fill:#5733FF,stroke:#8f4236,stroke-width:1px;
     
     class SE_Start start;
     class FI_End zend;
