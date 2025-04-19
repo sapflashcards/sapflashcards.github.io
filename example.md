@@ -28,7 +28,7 @@ flowchart TD
         subgraph Finance ["Finance/Billing Department"]
             FI_CreateInvoice["Create Billing Document\n(VF01)"]
             FI_SendInvoice["Send Invoice to Customer"]
-            FI_WaitPayment((("Wait for\nPayment Due Date")))
+            FI_WaitPayment["Wait for Payment Due Date"]
             FI_ReceivePayment["Receive Customer Payment"]
             FI_PostPayment["Post Incoming Payment & Clear A/R Item\n(F-28)"]
             FI_End([["Payment Received and Cleared\nO2C Complete"]])
