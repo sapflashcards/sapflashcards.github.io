@@ -31,7 +31,7 @@ flowchart TD
             FI_WaitPayment["Wait for Payment Due Date"]
             FI_ReceivePayment["Receive Customer Payment"]
             FI_PostPayment["Post Incoming Payment & Clear A/R Item\n(F-28)"]
-            FI_End([["Payment Received and Cleared\nO2C Complete"]])
+            FI_End["Payment Received and Cleared\nO2C Complete"]
         end
     end
     
