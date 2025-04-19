@@ -67,13 +67,13 @@ flowchart TD
 
     %% Styling
     classDef start fill:#9D9,stroke:#696,stroke-width:2px;
-    classDef end fill:#F99,stroke:#966,stroke-width:2px;
+    classDef zend fill:#F99,stroke:#966,stroke-width:2px;
     classDef task fill:#89CFF0,stroke:#0078D7,stroke-width:1px;
     classDef gateway fill:#ffffc0,stroke:#ccc,stroke-width:1px;
     classDef timer fill:#fbd2c9,stroke:#8f4236,stroke-width:1px;
     
     class SE_Start start;
-    class FI_End end;
+    class FI_End zend;
     class SO_Quote,SO_Receive,SO_Create,SO_ATP,SO_CreditBlock,SO_StockShortage,WH_Delivery,WH_Picking,WH_Packing,WH_PGI,WH_Ship,FI_CreateInvoice,FI_SendInvoice,FI_ReceivePayment,FI_PostPayment task;
     class SO_CheckGateway gateway;
     class FI_WaitPayment timer;
